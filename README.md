@@ -3,6 +3,8 @@
 This is a public dataset for "Comparative morphology of the whiskers and faces of mouse and rat (Mus
 musculus and Rattus norvegicus)" paper, submitted to the Journal of Computational Biology in June 2023.
 
+[![DOI](https://zenodo.org/badge/647067431.svg)](https://zenodo.org/badge/latestdoi/647067431) public repository
+
 TODO: Add journal paper DOI once public.
 
 Version 1.0 should not be modified -- it is the frozen dataset for the journal paper. If more files are requested by scientific community, repository owners (authors) can add them separately with new version tags by:
