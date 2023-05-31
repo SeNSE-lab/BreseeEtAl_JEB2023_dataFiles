@@ -1,11 +1,11 @@
 clear; close all;
 
-load('mouse_average.mat');
-facial = load('mouse_facial.mat');
+load('mouse_average.mat');          % These data are in the average-row plane (Towal et al 2011)
+facial = load('mouse_facial.mat');  % These data are in the average-row plane (Towal et al 2011)
 
 clr = lines(5);
 
-%% average mouse
+%% average mouse - average row plane
 [fig, ax] = initFigure();
 for i = 1:30
     plot3(whiskers{i}(:,1), whiskers{i}(:,2), whiskers{i}(:,3),...
@@ -30,7 +30,7 @@ finishFigure(fig, ax, ...
     'Average mouse, aligned with bregma-lambda',...
     'Avg_BregmaLambda');
 
-%% equation based mouse
+%% equation based mouse - average row plane
 [fig, ax] = initFigure();
 basepoint = cell(1, 3);
 whiskers = cell(30, 1);
